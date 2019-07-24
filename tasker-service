@@ -1,0 +1,9 @@
+server.port=7979
+
+# allow for RefreshScope
+management.endpoints.web.exposure.include=*
+
+# Information for Vin Lookup service
+vinLookupServiceName=ad-service
+serviceProtocol=http://
+servicePath=/ad
